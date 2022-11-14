@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 400px;
+    background: rgb(0,0,0);
+    background: linear-gradient(150deg, rgba(0,0,0,1) 0%, rgb(42, 42, 42) 44%, rgb(74, 74, 74) 100%);   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    text-align: center;
+    line-height: 90%;
+    font-size: 10vh;
+    color: white;
+}
+
+.main__content{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0px 5px 37px -5px rgba(34, 60, 80, 0.09);
+    -moz-box-shadow: 0px 5px 37px -5px rgba(34, 60, 80, 0.09);
+    box-shadow: 0px 5px 37px -5px rgba(34, 60, 80, 0.09);
+
+}
+.thebeatles{
+    background-image: url(https://e7da267a-b67b-4f13-925b-81f4cc6ae450.selcdn.net/origin/a81b327d-7e28-417c-a313-d42231618e98.jpeg);
+}
+.thequeen{
+    background-image: url(https://topzvuk.com/upload/iblock/fe5/DokumentalnyyfilmoQueenvyydetvprokat.jpg);
+}
+.ledzeppelin{
+    background-image: url(https://img.besthqwallpapers.com/Uploads/20-9-2017/21138/led-zeppelin-jimmy-page-john-bonham-robert-plant-john-paul-jones.jpg);
+}
+.card__image{
+    background-size: cover;
+    width:450px;
+    height: 200px;
+}
+
+.main__card{
+    opacity: 0.7;
+    margin-bottom: 50px;
+    transition: 0.2s ease-in-out;
+    width: 70%;
+    background-color: white;
+    display: flex;
+    border-radius: 15px;
+}
+.main__card:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+.card_wrapper{
+    margin-left: 30px;
+}
+.card_wrapper h2{
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+.card_wrapper p{
+    margin-top: 10px;
+    color: rgb(164, 164, 164);
+    line-height: 130%;
+}
+.card_wrapper .card__more{
+    align-content: flex-end;
+    border: 0px none;
+    background-color: rgb(59, 164, 255);
+    padding: 10px 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 60px;
+    transition: 0.2s ease-in-out;
+}
+.card_wrapper .card__more:hover{
+    background-color: rgb(0, 99, 186);
+}
